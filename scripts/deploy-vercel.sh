@@ -18,4 +18,4 @@ npx vercel env pull .env.vercel --yes --scope "$SCOPE" || true
 echo "Deploying production…"
 npx vercel --prod --yes --scope "$SCOPE"
 
-echo "Done. Update BETTER_AUTH_URL + NEXT_PUBLIC_APP_URL to the deployment URL, then redeploy."
+echo "Done. Update BETTER_AUTH_URL + NEXT_APP_URL to the deployment URL, then redeploy."
